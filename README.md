@@ -23,7 +23,7 @@
 4. นำเข้าไฟล์ SQL สำหรับสร้างตารางที่อยู่ในโฟลเดอร์ `database` หรือคัดลอก SQL ด้านล่างไปใช้ได้เลย:
     ```sql
     -- สร้างฐานข้อมูล
-    CREATE DATABASE IF NOT EXISTS article_management;
+    CREATE DATABASE IF NOT EXISTS articles;
 
     -- เลือกฐานข้อมูล
     USE article_management;
@@ -48,7 +48,7 @@
     define('DB_HOST', 'localhost');
     define('DB_USER', 'root');
     define('DB_PASS', '');
-    define('DB_NAME', 'article_management');
+    define('DB_NAME', 'articles');
     ``
 ## การใช้งาน
 1. เปิดเบราว์เซอร์แล้วไปที่ `http://localhost/your-project-folder/`
