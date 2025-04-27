@@ -26,7 +26,7 @@
     CREATE DATABASE IF NOT EXISTS articles;
 
     -- เลือกฐานข้อมูล
-    USE article_management;
+    USE articles;
 
     -- สร้างตารางสำหรับบทความ
     CREATE TABLE IF NOT EXISTS articles (
